@@ -471,7 +471,7 @@ input:focus ~ label{
         display: flex;
         justify-content: center;
         position: relative;
-        margin-left: 120px;
+        margin-left: 0px;
         margin-top: 140px;
         z-index: 0;
     }
@@ -490,7 +490,8 @@ input:focus ~ label{
         display: flex;
         flex-direction: column;
         margin-top: 90px;
-        width: 50vw;
+        position: absolute;
+        width: 53px;
         align-items: end;
     }
     .cn{
@@ -583,5 +584,19 @@ input:focus ~ label{
     .breaks{
         margin-top: 20px;
         padding-bottom: 20px;
+    }
+    .m-c{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .r-r{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        right: 40px;
     }
 }

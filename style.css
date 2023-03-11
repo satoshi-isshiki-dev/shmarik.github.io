@@ -188,7 +188,7 @@ input:focus ~ label{
     display: flex;
     justify-content: center;
     position: relative;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-top: 200px;
     z-index: 0;
 }
@@ -330,6 +330,23 @@ input:focus ~ label{
     user-select: none;
 }
 
+.login-cont{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.r-r{
+    position: absolute;
+    width: 1400px;
+    display: flex;
+    justify-content: end;
+}
+
+.information{
+    display: none;
+}
+
 @media screen and (max-width:580px){
     body{
         display: block;
@@ -358,9 +375,9 @@ input:focus ~ label{
         display: flex;
         justify-content: space-around;
         z-index: 5;
-        background-color: #fff;
-        height: 40px;
-        border-top: solid black 1px;
+        background-color: #c7c7c7;
+        height: 70px;
+        border-top: solid #3daa3d 2px;
     }
     
     .burger {
@@ -373,20 +390,6 @@ input:focus ~ label{
         cursor: pointer;
         margin-top: 19px;
         margin-right: 30px;
-    }
-    
-    .nav--active {
-        display: flex;
-        justify-content: space-around;
-    }
-    
-    .nav--active li {
-        margin: 10px 0px;
-        list-style: none;
-    }
-    
-    .nav--active a {
-        color: #fff;
     }
     
     .burger-nav-and-burger{
@@ -410,12 +413,13 @@ input:focus ~ label{
     .log-in{
         margin-left: 0px;
         margin-top: 25px;
+        margin-right: 30px;
         height: 25px;
-        width: 70px;
+        width: 60px;
         padding-top: 2px;
     }
     .but-ico{
-        width: 20px;
+        width: 30px;
     }
     .nav-el{
         display: flex;
@@ -423,22 +427,25 @@ input:focus ~ label{
         align-items: center;
         justify-content: center;
         color: black;
+        font-size: 12px;
     }
     .logIn{
-        width: 400px;
-        height: 700px;
+        width: 300px;
+        height: 300px;
     }
     input{
-        height: 50px;
-        width: 300px;
-        font-size: 30px;
+        height: 20px;
+        width: 180px;
+        font-size: 15px;
+        color: #fff;
         margin-bottom: 50px;
+        border-bottom: solid #fff 1px; 
     }
     .close{
         position: absolute;
-        font-size: 50px;
-        margin-left: 320px;
-        margin-bottom: 620px;
+        font-size: 30px;
+        margin-left: 240px;
+        margin-bottom: 240px;
         cursor: pointer;
         height:50px;
         width: 50px;
@@ -493,6 +500,8 @@ input:focus ~ label{
         position: absolute;
         width: 53px;
         align-items: end;
+        justify-content: space-between;
+        height: 70px;
     }
     .cn{
         display: none;
@@ -568,7 +577,7 @@ input:focus ~ label{
 
     .t-inf{
         color: white;
-        font-size: 15px;
+        font-size: 10px;
         display: flex;
         margin-left: 11px;
         align-items: center;
@@ -579,7 +588,7 @@ input:focus ~ label{
     }
 
     .inf-gl{
-        font-size: 20px;
+        font-size: 16px;
     }
     .breaks{
         margin-top: 20px;
@@ -597,6 +606,51 @@ input:focus ~ label{
         width: 100%;
         display: flex;
         justify-content: end;
-        right: 40px;
+    }
+
+    .login-cont{
+        width: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+
+    .lgnBtn{
+        font-size: 15px;
+        height: 30px;
+        width: 80px;
+        border-radius: 50px;
+        border: none;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    label{
+        font-size: 15px;
+    }
+
+    input:focus ~ label{
+        margin-top: -100px;
+    }
+
+    .cnopka{
+        color: white;
+        font-size: 10px;
+        border: solid white 1px;
+        padding: 3px;
+        margin-right: 10px;
+    }
+
+    .information{
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
+
+    .infa{
+        background-color: #fff;
     }
 }

@@ -347,6 +347,10 @@ input:focus ~ label{
     display: none;
 }
 
+.cnopka{
+    display: none;
+}
+
 @media screen and (max-width:580px){
     body{
         display: block;
@@ -646,6 +650,7 @@ input:focus ~ label{
     }
 
     .cnopka{
+        display: block;
         color: white;
         font-size: 10px;
         border: solid white 1px;

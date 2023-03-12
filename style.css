@@ -479,7 +479,7 @@ input:focus ~ label{
         justify-content: center;
         position: relative;
         margin-left: 0px;
-        margin-top: 142px;
+        margin-top: 145px;
         z-index: 0;
     }
     
@@ -515,7 +515,7 @@ input:focus ~ label{
     }
     .na4{
         background: #3daa3d;
-        width: 150px;
+        width: 100px;
         height: 47px;
         display: flex;
         justify-content: center;
@@ -523,12 +523,13 @@ input:focus ~ label{
     }
     .yzn{
         background-color: #fff;
-        width: 150px;
+        width: 100px;
         height: 47px;
         margin-left: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 10px;
     }
 
     .inf{

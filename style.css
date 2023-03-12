@@ -658,7 +658,7 @@ input:focus ~ label{
         position: absolute;
         width: 100%;
         background-color: #181818;
-        margin-top: 182px;
+        margin-top: 181px;
         padding: 10px;
         border-top: solid white 1px;
     }

@@ -25,3 +25,8 @@ function removeTodoEl() {
         }
     }
 }
+
+function name() {
+    const inf = document.querySelector(".information")
+    inf.classList.toggle("information-active")
+}
